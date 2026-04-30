@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    border: 2px solid #457b9d;
+    border-radius: 8px;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #457b9d;
+}
