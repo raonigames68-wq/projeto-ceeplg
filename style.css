@@ -39,11 +39,17 @@ p.subtitulo {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    background-color: #f6f6f6;
 }
 
-.logo {
-    width: 100px;
-    border-radius: 10px;
+#logo {
+    width: 16rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: left;
+    display: block;
+    margin: 5px;
+    background-color: #f6f6f6;
 }
 
 .menu {
