@@ -6,6 +6,18 @@
     <title>Contato</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="formulario.css">
+    <style>
+        .cabecalho h1 {
+            display:flex;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        #mensagem {
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -38,9 +50,12 @@
             <input type="checkbox"> Cursos
             <input type="checkbox"> Turmas
             <input type="checkbox"> Matrícula
-
+            
+            <div id="mensagem">
             <label>Mensagem:</label>
+            <br>
             <textarea rows="5"></textarea>
+            </div>
 
             <div class="botoes">
                 <input type="submit" value="Enviar">
